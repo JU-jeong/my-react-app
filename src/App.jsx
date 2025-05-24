@@ -19,10 +19,10 @@ function App() {
         <Route path="/" element={<SignUp />} />
 
         {/* /product 경로: Product 컴포넌트 렌더링 */}
-        <Route path="/product" element={<Product />} />
+        {/* <Route path="/product" element={<Product />} /> */}
 
         {/* /sale 경로: Sale 컴포넌트 렌더링 */}
-        <Route path="/sale" element={<Sale />} />
+        {/* <Route path="/sale" element={<Sale />} /> */}
 
         {/* /signup 경로: SignUp 컴포넌트 렌더링 ("/"와 동일) */}
         <Route path="/signup" element={<SignUp />} />
